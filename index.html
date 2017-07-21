@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>vue-lifecycle</title>
+  </head>
+  <body>
+    <div id="app">
+      <img src="../static/logo.png">
+      <p>{{number}}</p>
+
+      <ul>
+        <li v-for="(item,index) in arr" :key="index">
+          {{index}} - {{ item }}
+        </li>
+      </ul>
+      
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
